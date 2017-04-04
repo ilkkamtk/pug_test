@@ -1,0 +1,48 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/Users/ilkkamtk/.npm-packages/bin/npm',
+1 verbose cli   'run',
+1 verbose cli   'watch' ]
+2 info using npm@3.10.10
+3 info using node@v6.9.4
+4 verbose run-script [ 'prewatch', 'watch', 'postwatch' ]
+5 info lifecycle pug-test@1.0.0~prewatch: pug-test@1.0.0
+6 silly lifecycle pug-test@1.0.0~prewatch: no script for prewatch, continuing
+7 info lifecycle pug-test@1.0.0~watch: pug-test@1.0.0
+8 verbose lifecycle pug-test@1.0.0~watch: unsafe-perm in lifecycle true
+9 verbose lifecycle pug-test@1.0.0~watch: PATH: /Users/ilkkamtk/.npm-packages/lib/node_modules/npm/bin/node-gyp-bin:/Users/ilkkamtk/Documents/gitProjects/SSSF-assignments/pug_test/node_modules/.bin:/Users/ilkkamtk/.npm-packages/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/munki
+10 verbose lifecycle pug-test@1.0.0~watch: CWD: /Users/ilkkamtk/Documents/gitProjects/SSSF-assignments/pug_test
+11 silly lifecycle pug-test@1.0.0~watch: Args: [ '-c', 'supervisor server.js' ]
+12 silly lifecycle pug-test@1.0.0~watch: Returned: code: 1  signal: null
+13 info lifecycle pug-test@1.0.0~watch: Failed to exec watch script
+14 verbose stack Error: pug-test@1.0.0 watch: `supervisor server.js`
+14 verbose stack Exit status 1
+14 verbose stack     at EventEmitter.<anonymous> (/Users/ilkkamtk/.npm-packages/lib/node_modules/npm/lib/utils/lifecycle.js:255:16)
+14 verbose stack     at emitTwo (events.js:106:13)
+14 verbose stack     at EventEmitter.emit (events.js:191:7)
+14 verbose stack     at ChildProcess.<anonymous> (/Users/ilkkamtk/.npm-packages/lib/node_modules/npm/lib/utils/spawn.js:40:14)
+14 verbose stack     at emitTwo (events.js:106:13)
+14 verbose stack     at ChildProcess.emit (events.js:191:7)
+14 verbose stack     at maybeClose (internal/child_process.js:877:16)
+14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
+15 verbose pkgid pug-test@1.0.0
+16 verbose cwd /Users/ilkkamtk/Documents/gitProjects/SSSF-assignments/pug_test
+17 error Darwin 15.6.0
+18 error argv "/usr/local/bin/node" "/Users/ilkkamtk/.npm-packages/bin/npm" "run" "watch"
+19 error node v6.9.4
+20 error npm  v3.10.10
+21 error code ELIFECYCLE
+22 error pug-test@1.0.0 watch: `supervisor server.js`
+22 error Exit status 1
+23 error Failed at the pug-test@1.0.0 watch script 'supervisor server.js'.
+23 error Make sure you have the latest version of node.js and npm installed.
+23 error If you do, this is most likely a problem with the pug-test package,
+23 error not with npm itself.
+23 error Tell the author that this fails on your system:
+23 error     supervisor server.js
+23 error You can get information on how to open an issue for this project with:
+23 error     npm bugs pug-test
+23 error Or if that isn't available, you can get their info via:
+23 error     npm owner ls pug-test
+23 error There is likely additional logging output above.
+24 verbose exit [ 1, true ]
